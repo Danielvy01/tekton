@@ -1,0 +1,33 @@
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+WORKDIR /app
+
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR /src
+COPY ["Tekton.Configuration.WebApi/Tekton.Configuration.WebApi.csproj", "Tekton.Configuration.WebApi/"]
+COPY ["Tekton.Configuration.Application/Tekton.Configuration.Application.csproj", "Tekton.Configuration.Application/"]
+COPY ["Tekton.Application.Common/Tekton.Application.Common.csproj", "Tekton.Application.Common/"]
+COPY ["Tekton.RedisCaching/Tekton.RedisCaching.csproj", "Tekton.RedisCaching/"]
+COPY ["Tekton.Configuration.Infraestructure/Tekton.Configuration.Infraestructure.csproj", "Tekton.Configuration.Infraestructure/"]
+COPY ["Tekton.Configuration.Damain/Tekton.Configuration.Damain.csproj", "Tekton.Configuration.Damain/"]
+COPY ["Seguridad/Tekton.Security.Infraestructure/Tekton.Security.Infraestructure.csproj", "Seguridad/Tekton.Security.Infraestructure/"]
+COPY ["Seguridad/Tekton.Security.Domain/Tekton.Security.Domain.csproj", "Seguridad/Tekton.Security.Domain/"]
+COPY ["Tekton.Elastic.Service.Infraestructure/Tekton.Service.Common.csproj", "Tekton.Elastic.Service.Infraestructure/"]
+COPY ["Tekton.Elastic.Log/Tekton.Elastic.Log.csproj", "Tekton.Elastic.Log/"]
+COPY ["Tekton.Seguridad/Tekton.Seguridad.csproj", "Tekton.Seguridad/"]
+RUN dotnet restore "Tekton.Configuration.WebApi/Tekton.Configuration.WebApi.csproj"
+COPY . .
+WORKDIR "/src/Tekton.Configuration.WebApi"
+RUN dotnet build "Tekton.Configuration.WebApi.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "Tekton.Configuration.WebApi.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "Tekton.Configuration.WebApi.dll"]
+
+RUN echo "tzdata tzdata/Areas select America" | debconf-set-selections
+RUN echo "tzdata tzdata/Zones/America select Lima" | debconf-set-selections
+RUN rm -f /etc/localtime /etc/timezone
+RUN dpkg-reconfigure -f noninteractive tzdata

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tekton.Configuration.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Tekton.Configuration.WebApi.Controllers.ProductoController">
+            <summary>
+            Controlador para manejar la configuación base de los productos
+            </summary>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.ProductoController.GetById(Tekton.Configuration.Application.Features.Producto.Query.GetListProductoQuery)">
+            <summary>
+            Obtiene información de un producto o todos los productos
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.ProductoController.Create(Tekton.Configuration.Application.Features.Producto.Command.Create.InsertProductoCommand)">
+            <summary>
+            Registra la información de un producto
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.ProductoController.Update(Tekton.Configuration.Application.Features.Producto.Command.Update.UpdateProductoCommand)">
+            <summary>
+            Actualiza la información de un producto
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.ProductoController.Delete(Tekton.Configuration.Application.Features.Producto.Command.Update.EliminarProductoCommand)">
+            <summary>
+            Elimina Productos po id
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

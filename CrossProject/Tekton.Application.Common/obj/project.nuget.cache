@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "OBMZhwYWHENqlxdd17gucnuSjDzIaa2+JofcOkwcg9/CkzyooEn/sf9VO3oIdFdzQXVsv3YwevDGQGdiY/G9vg==",
+  "success": true,
+  "projectFilePath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Application.Common\\Tekton.Application.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\daniel.vargas\\.nuget\\packages\\fluentvalidation\\9.1.2\\fluentvalidation.9.1.2.nupkg.sha512",
+    "C:\\Users\\daniel.vargas\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.1.2\\fluentvalidation.dependencyinjectionextensions.9.1.2.nupkg.sha512",
+    "C:\\Users\\daniel.vargas\\.nuget\\packages\\mediatr\\8.0.0\\mediatr.8.0.0.nupkg.sha512",
+    "C:\\Users\\daniel.vargas\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.0.1\\mediatr.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\daniel.vargas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

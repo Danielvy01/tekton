@@ -1,0 +1,914 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.xUnitTestes\\Tekton.Configuration.xUnitTestes.csproj": {}
+  },
+  "projects": {
+    "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Application.Common\\Tekton.Application.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Application.Common\\Tekton.Application.Common.csproj",
+        "projectName": "Tekton.Application.Common",
+        "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Application.Common\\Tekton.Application.Common.csproj",
+        "packagesPath": "C:\\Users\\daniel.vargas\\.nuget\\packages\\",
+        "outputPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Application.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daniel.vargas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Caching.Common\\Tekton.Caching.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Caching.Common\\Tekton.Caching.Common.csproj",
+        "projectName": "Tekton.Caching.Common",
+        "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Caching.Common\\Tekton.Caching.Common.csproj",
+        "packagesPath": "C:\\Users\\daniel.vargas\\.nuget\\packages\\",
+        "outputPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Caching.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daniel.vargas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Redis": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Elastic.LogCommon\\Tekton.Elastic.LogCommon.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Elastic.LogCommon\\Tekton.Elastic.LogCommon.csproj",
+        "projectName": "Tekton.Elastic.LogCommon",
+        "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Elastic.LogCommon\\Tekton.Elastic.LogCommon.csproj",
+        "packagesPath": "C:\\Users\\daniel.vargas\\.nuget\\packages\\",
+        "outputPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Elastic.LogCommon\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daniel.vargas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Seguridad.Common\\Tekton.Seguridad.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Seguridad.Common\\Tekton.Seguridad.Common.csproj",
+        "projectName": "Tekton.Seguridad.Common",
+        "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Seguridad.Common\\Tekton.Seguridad.Common.csproj",
+        "packagesPath": "C:\\Users\\daniel.vargas\\.nuget\\packages\\",
+        "outputPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Seguridad.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daniel.vargas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Service.Common\\Tekton.Service.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Service.Common\\Tekton.Service.Common.csproj",
+        "projectName": "Tekton.Service.Common",
+        "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Service.Common\\Tekton.Service.Common.csproj",
+        "packagesPath": "C:\\Users\\daniel.vargas\\.nuget\\packages\\",
+        "outputPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Service.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daniel.vargas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Application.Common\\Tekton.Application.Common.csproj": {
+                "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Application.Common\\Tekton.Application.Common.csproj"
+              },
+              "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Caching.Common\\Tekton.Caching.Common.csproj": {
+                "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Caching.Common\\Tekton.Caching.Common.csproj"
+              },
+              "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Elastic.LogCommon\\Tekton.Elastic.LogCommon.csproj": {
+                "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Elastic.LogCommon\\Tekton.Elastic.LogCommon.csproj"
+              },
+              "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Seguridad.Common\\Tekton.Seguridad.Common.csproj": {
+                "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Seguridad.Common\\Tekton.Seguridad.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Application\\Tekton.Configuration.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Application\\Tekton.Configuration.Application.csproj",
+        "projectName": "Tekton.Configuration.Application",
+        "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Application\\Tekton.Configuration.Application.csproj",
+        "packagesPath": "C:\\Users\\daniel.vargas\\.nuget\\packages\\",
+        "outputPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daniel.vargas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Application.Common\\Tekton.Application.Common.csproj": {
+                "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Application.Common\\Tekton.Application.Common.csproj"
+              },
+              "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Infraestructure\\Tekton.Configuration.Infraestructure.csproj": {
+                "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Infraestructure\\Tekton.Configuration.Infraestructure.csproj"
+              },
+              "C:\\FUENTES\\EXADEMO\\ExamTekton\\Tekton.Application.Common\\Tekton.Application.Common.csproj": {
+                "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Tekton.Application.Common\\Tekton.Application.Common.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Damain\\Tekton.Configuration.Damain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Damain\\Tekton.Configuration.Damain.csproj",
+        "projectName": "Tekton.Configuration.Damain",
+        "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Damain\\Tekton.Configuration.Damain.csproj",
+        "packagesPath": "C:\\Users\\daniel.vargas\\.nuget\\packages\\",
+        "outputPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Damain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daniel.vargas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Infraestructure\\Tekton.Configuration.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Infraestructure\\Tekton.Configuration.Infraestructure.csproj",
+        "projectName": "Tekton.Configuration.Infraestructure",
+        "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Infraestructure\\Tekton.Configuration.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\daniel.vargas\\.nuget\\packages\\",
+        "outputPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daniel.vargas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Damain\\Tekton.Configuration.Damain.csproj": {
+                "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Damain\\Tekton.Configuration.Damain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.WebApi\\Tekton.Configuration.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.WebApi\\Tekton.Configuration.WebApi.csproj",
+        "projectName": "Tekton.Configuration.WebApi",
+        "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.WebApi\\Tekton.Configuration.WebApi.csproj",
+        "packagesPath": "C:\\Users\\daniel.vargas\\.nuget\\packages\\",
+        "outputPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daniel.vargas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Service.Common\\Tekton.Service.Common.csproj": {
+                "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\CrossProject\\Tekton.Service.Common\\Tekton.Service.Common.csproj"
+              },
+              "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Application\\Tekton.Configuration.Application.csproj": {
+                "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Application\\Tekton.Configuration.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.xUnitTestes\\Tekton.Configuration.xUnitTestes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.xUnitTestes\\Tekton.Configuration.xUnitTestes.csproj",
+        "projectName": "Tekton.Configuration.xUnitTestes",
+        "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.xUnitTestes\\Tekton.Configuration.xUnitTestes.csproj",
+        "packagesPath": "C:\\Users\\daniel.vargas\\.nuget\\packages\\",
+        "outputPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.xUnitTestes\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daniel.vargas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Application\\Tekton.Configuration.Application.csproj": {
+                "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.Application\\Tekton.Configuration.Application.csproj"
+              },
+              "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.WebApi\\Tekton.Configuration.WebApi.csproj": {
+                "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Microservicio Configuracion\\Tekton.Configuration.WebApi\\Tekton.Configuration.WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.2, )"
+            },
+            "Moq.Dapper": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\FUENTES\\EXADEMO\\ExamTekton\\Tekton.Application.Common\\Tekton.Application.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Tekton.Application.Common\\Tekton.Application.Common.csproj",
+        "projectName": "Tekton.Application.Common",
+        "projectPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Tekton.Application.Common\\Tekton.Application.Common.csproj",
+        "packagesPath": "C:\\Users\\daniel.vargas\\.nuget\\packages\\",
+        "outputPath": "C:\\FUENTES\\EXADEMO\\ExamTekton\\Tekton.Application.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daniel.vargas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Tekton.Configuration.Application": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Certification"
+      },
+      "applicationUrl": "https://localhost:57368;http://localhost:57369"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\bin\Debug\net6.0\Tekton.Configuration.Infraestructure.deps.json
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\bin\Debug\net6.0\Tekton.Configuration.Infraestructure.dll
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\bin\Debug\net6.0\Tekton.Configuration.Infraestructure.pdb
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\bin\Debug\net6.0\Tekton.Configuration.Damain.dll
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\bin\Debug\net6.0\Tekton.Configuration.Damain.pdb
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\obj\Debug\net6.0\Tekton.Configuration.Infraestructure.csproj.AssemblyReference.cache
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\obj\Debug\net6.0\Tekton.Configuration.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\obj\Debug\net6.0\Tekton.Configuration.Infraestructure.AssemblyInfoInputs.cache
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\obj\Debug\net6.0\Tekton.Configuration.Infraestructure.AssemblyInfo.cs
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\obj\Debug\net6.0\Tekton.Configuration.Infraestructure.csproj.CoreCompileInputs.cache
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\obj\Debug\net6.0\Tekton.Configuration.Infraestructure.csproj.CopyComplete
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\obj\Debug\net6.0\Tekton.Configuration.Infraestructure.dll
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\obj\Debug\net6.0\refint\Tekton.Configuration.Infraestructure.dll
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\obj\Debug\net6.0\Tekton.Configuration.Infraestructure.pdb
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\obj\Debug\net6.0\ref\Tekton.Configuration.Infraestructure.dll
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\bin\Debug\net6.0\Tekton.Caching.Common.dll
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Infraestructure\bin\Debug\net6.0\Tekton.Caching.Common.pdb

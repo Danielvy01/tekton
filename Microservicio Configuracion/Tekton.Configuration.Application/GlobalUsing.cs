@@ -1,0 +1,10 @@
+﻿global using FluentValidation;
+global using FluentValidation.Results;
+global using Tekton.Application.Common.Wrappers;
+global using Tekton.Configuration.Application.Wrappers;
+global using MediatR;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Diagnostics.CodeAnalysis;
+global using System.Globalization;
+global using System.Reflection;
+global using System.Runtime.Serialization;

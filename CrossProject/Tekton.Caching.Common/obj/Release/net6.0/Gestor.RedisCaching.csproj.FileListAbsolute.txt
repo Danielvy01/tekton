@@ -1,0 +1,12 @@
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.RedisCaching\bin\Release\net6.0\Tekton.RedisCaching.deps.json
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.RedisCaching\bin\Release\net6.0\Tekton.RedisCaching.dll
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.RedisCaching\bin\Release\net6.0\Tekton.RedisCaching.pdb
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.RedisCaching\obj\Release\net6.0\Tekton.RedisCaching.csproj.AssemblyReference.cache
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.RedisCaching\obj\Release\net6.0\Tekton.RedisCaching.GeneratedMSBuildEditorConfig.editorconfig
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.RedisCaching\obj\Release\net6.0\Tekton.RedisCaching.AssemblyInfoInputs.cache
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.RedisCaching\obj\Release\net6.0\Tekton.RedisCaching.AssemblyInfo.cs
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.RedisCaching\obj\Release\net6.0\Tekton.RedisCaching.csproj.CoreCompileInputs.cache
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.RedisCaching\obj\Release\net6.0\Tekton.RedisCaching.dll
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.RedisCaching\obj\Release\net6.0\refint\Tekton.RedisCaching.dll
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.RedisCaching\obj\Release\net6.0\Tekton.RedisCaching.pdb
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.RedisCaching\obj\Release\net6.0\ref\Tekton.RedisCaching.dll

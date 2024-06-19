@@ -1,0 +1,12 @@
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Elastic.LogCommon\bin\Debug\net6.0\Tekton.Elastic.LogCommon.deps.json
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Elastic.LogCommon\bin\Debug\net6.0\Tekton.Elastic.LogCommon.dll
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Elastic.LogCommon\bin\Debug\net6.0\Tekton.Elastic.LogCommon.pdb
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Elastic.LogCommon\obj\Debug\net6.0\Tekton.Elastic.LogCommon.csproj.AssemblyReference.cache
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Elastic.LogCommon\obj\Debug\net6.0\Tekton.Elastic.LogCommon.GeneratedMSBuildEditorConfig.editorconfig
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Elastic.LogCommon\obj\Debug\net6.0\Tekton.Elastic.LogCommon.AssemblyInfoInputs.cache
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Elastic.LogCommon\obj\Debug\net6.0\Tekton.Elastic.LogCommon.AssemblyInfo.cs
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Elastic.LogCommon\obj\Debug\net6.0\Tekton.Elastic.LogCommon.csproj.CoreCompileInputs.cache
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Elastic.LogCommon\obj\Debug\net6.0\Tekton.Elastic.LogCommon.dll
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Elastic.LogCommon\obj\Debug\net6.0\refint\Tekton.Elastic.LogCommon.dll
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Elastic.LogCommon\obj\Debug\net6.0\Tekton.Elastic.LogCommon.pdb
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Elastic.LogCommon\obj\Debug\net6.0\ref\Tekton.Elastic.LogCommon.dll

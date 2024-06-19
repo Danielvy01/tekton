@@ -1,0 +1,12 @@
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Seguridad.Common\bin\Debug\net6.0\Tekton.Seguridad.Common.deps.json
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Seguridad.Common\bin\Debug\net6.0\Tekton.Seguridad.Common.dll
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Seguridad.Common\bin\Debug\net6.0\Tekton.Seguridad.Common.pdb
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Seguridad.Common\obj\Debug\net6.0\Tekton.Seguridad.Common.csproj.AssemblyReference.cache
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Seguridad.Common\obj\Debug\net6.0\Tekton.Seguridad.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Seguridad.Common\obj\Debug\net6.0\Tekton.Seguridad.Common.AssemblyInfoInputs.cache
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Seguridad.Common\obj\Debug\net6.0\Tekton.Seguridad.Common.AssemblyInfo.cs
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Seguridad.Common\obj\Debug\net6.0\Tekton.Seguridad.Common.csproj.CoreCompileInputs.cache
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Seguridad.Common\obj\Debug\net6.0\Tekton.Seguridad.Common.dll
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Seguridad.Common\obj\Debug\net6.0\refint\Tekton.Seguridad.Common.dll
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Seguridad.Common\obj\Debug\net6.0\Tekton.Seguridad.Common.pdb
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Seguridad.Common\obj\Debug\net6.0\ref\Tekton.Seguridad.Common.dll

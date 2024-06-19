@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<DockerfileContext>..\..</DockerfileContext>
+		<UserSecretsId>a7bb550d-f36d-4301-a032-1f98f4a7d6d8</UserSecretsId>
+		<DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Controllers\SeguridadController.cs" />
+	  <Compile Remove="SDK\AuthenticationHelper.cs" />
+	  <Compile Remove="SDK\Constants.cs" />
+	  <Compile Remove="SDK\MyApiClient.cs" />
+	  <Compile Remove="SDK\ServerConfiguration.cs" />
+	  <Compile Remove="SDK\ServerConfigurationManager.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.10" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.4.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\CrossProject\Tekton.Service.Common\Tekton.Service.Common.csproj" />
+		<ProjectReference Include="..\Tekton.Configuration.Application\Tekton.Configuration.Application.csproj" />
+  </ItemGroup>
+	<ItemGroup>
+		<SonarQubeSetting Include="sonar.coverage.exclusions">
+			<Value>**/Program.cs</Value>
+		</SonarQubeSetting>
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Helpers\" />
+	  <Folder Include="SDK\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Content Update="appsettings.Capacitation.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+	  </Content>
+	  <Content Update="appsettings.Certification.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+	  </Content>
+	  <Content Update="appsettings.Quality.json">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	    <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+	    <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+	  </Content>
+	</ItemGroup>
+</Project>

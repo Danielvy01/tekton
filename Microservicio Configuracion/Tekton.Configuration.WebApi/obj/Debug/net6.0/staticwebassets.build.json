@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Xx/OjvXuizSBVxScbGah8VO5124tv8FtoZL4eiXblGs=",
+  "Source": "Tekton.Configuration.WebApi",
+  "BasePath": "_content/Tekton.Configuration.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

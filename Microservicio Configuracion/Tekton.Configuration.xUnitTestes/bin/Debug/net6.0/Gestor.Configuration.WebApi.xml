@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tekton.Configuration.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Tekton.Configuration.WebApi.Controllers.CalendarioDiasFeriadosController">
+            <summary>
+            Controlador para manejar la configuración de dias feriados de un calendario.
+            </summary>
+        </member>
+        <member name="T:Tekton.Configuration.WebApi.Controllers.ConfiguracionPlazoAtencionController">
+            <summary>
+            Configuracion Plazo Atencion Controller
+            </summary>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.ConfiguracionPlazoAtencionController.GetByTupa(Tekton.Configuration.Application.Features.ConfiguracionPlazoAtencion.Query.GetConfigPlazoAtencionByTupaQuery)">
+            <summary>
+            Obtener Configuración de palza de atencion mediante el TupaDto
+            </summary>
+            <param name="getByTupaQuery"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Tekton.Configuration.WebApi.Controllers.ConfiguracionTramiteController">
+            <summary>
+            Controlador para manejar la configuración de trámites.
+            </summary>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.ConfiguracionTramiteController.GetByTupa(Tekton.Configuration.Application.Features.ConfiguracionTramite.Query.GetConfiguracionTramiteByTupaQuery)">
+            <summary>
+            Obtiene la configuración de trámite basada en el Tupa.
+            </summary>
+            <param name="getConfiguracionTramiteByTupaQuery">Consulta para obtener la configuración.</param>
+            <returns>Retorna la configuración de trámite.</returns>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.ConfiguracionTramiteController.GetByTupaDescripcion(Tekton.Configuration.Application.Features.ConfiguracionTramite.Query.GetConfiguracionTramiteByTupaDescripcionQuery)">
+            <summary>
+            Obtiene la configuración de trámite por Tupa y descripción.
+            </summary>
+            <param name="getConfiguracionTramiteByTupaDescripcionQuery">Consulta para obtener la configuración.</param>
+            <returns>Retorna la configuración de trámite por Tupa y descripción.</returns>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.ConfiguracionTramiteController.GetTramiteDetalleByTupa(Tekton.Configuration.Application.Features.ConfiguracionTramite.Query.GetConfiguracionTramiteDetalleByTupaQuery)">
+            <summary>
+            Obtiene el detalle de trámite basado en el Tupa.
+            </summary>
+            <param name="getConfiguracionTramiteDetalleByTupaQuery">Consulta para obtener el detalle.</param>
+            <returns>Retorna el detalle de trámite basado en el Tupa.</returns>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.ConfiguracionTramiteController.Create(Tekton.Configuration.Application.Features.ConfiguracionTramite.Command.Create.CreateConfiguracionTramiteCommand)">
+            <summary>
+            Registra nueva configuración de trámite.
+            </summary>
+            <param name="create">Datos para crear la configuración.</param>
+            <returns>Retorna el resultado de la operación de registro.</returns>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.ConfiguracionTramiteController.Update(Tekton.Configuration.Application.Features.ConfiguracionTramite.Command.Update.UpdateFlujoTramiteCommand)">
+            <summary>
+            Actualiza configuración de trámite existente.
+            </summary>
+            <param name="update">Datos para actualizar la configuración.</param>
+            <returns>Retorna el resultado de la operación de actualización.</returns>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.DepartamentoController.GetDepartamento(Tekton.Configuration.Application.Features.Departamento.Query.GetDepartamentoQuery)">
+            <summary>
+            {}
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.DistritoController.GetDistrito(Tekton.Configuration.Application.Features.Distrito.Query.GetDistritoQuery)">
+            <summary>
+            Obtiene la información de los distritos.
+            </summary>
+            <param name="query">Consulta para obtener la información de los distritos.</param>
+            <returns>Retorna la información de los distritos.</returns>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.DistritoController.GetByProvinciaId(Tekton.Configuration.Application.Features.Distrito.Query.GetDistritoByProvinciaIdQuery)">
+            <summary>
+            Obtiene la información de los distritos basada en el ID de la provincia.
+            </summary>
+            <param name="query">Consulta para obtener la información de los distritos por ID de provincia.</param>
+            <returns>Retorna la información de los distritos basada en el ID de la provincia.</returns>
+        </member>
+        <member name="T:Tekton.Configuration.WebApi.Controllers.ListaConfiguracionController">
+            <summary>
+            Lista Configuracion Controller
+            </summary>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.ListaConfiguracionController.GetByEntidad(Tekton.Configuration.Application.Features.ListaConfiguracion.Query.GetListaConfiguracionByEntidadQuery)">
+            <summary>
+            Obtiene la configuración de lista basada en la entidad.
+            </summary>
+            <param name="get">Consulta para obtener la configuración de lista por entidad.</param>
+            <returns>Retorna la configuración de lista basada en la entidad.</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:Tekton.Configuration.WebApi.Controllers.MensajeConfiguracionController" -->
+        <!-- Badly formed XML comment ignored for member "F:Tekton.Configuration.WebApi.Controllers.MensajeConfiguracionController._mediator" -->
+        <member name="M:Tekton.Configuration.WebApi.Controllers.MensajeConfiguracionController.#ctor(MediatR.IMediator)">
+            <summary>
+            Método Instanciar Mediator
+            </summary>     
+            <param name="mediator"></param>
+            <remarks>
+            El Método Instanciar Mediator
+            </remarks>
+            <example>
+            <code>               
+            </code>
+            </example>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Tekton.Configuration.WebApi.Controllers.MensajeConfiguracionController.Get(Tekton.Configuration.Application.Features.MensajeConfiguracion.Query.QueryMensajeConfiguracionAll)" -->
+        <member name="T:Tekton.Configuration.WebApi.Controllers.PaisController">
+            <summary>
+            Controlador para la gestión de países.
+            </summary>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.PaisController.#ctor(MediatR.IMediator)">
+            <summary>
+            Constructor de PaisController.
+            </summary>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.PaisController.GetAll">
+            <summary>
+            Obtiene todos los países.
+            </summary>
+            <returns>Retorna todos los países.</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:Tekton.Configuration.WebApi.Controllers.ParametroGlobalController" -->
+        <!-- Badly formed XML comment ignored for member "F:Tekton.Configuration.WebApi.Controllers.ParametroGlobalController._mediator" -->
+        <member name="M:Tekton.Configuration.WebApi.Controllers.ParametroGlobalController.#ctor(MediatR.IMediator)">
+            <summary>
+            Método Instanciar Mediator
+            </summary>     
+            <param name="mediator"></param>
+            <remarks>
+            El Método Instanciar Mediator
+            </remarks>
+            <example>
+            <code>               
+            </code>
+            </example>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Tekton.Configuration.WebApi.Controllers.ParametroGlobalController.get(Tekton.Configuration.Application.Features.ParametrosGlobales.Query.QueryParametroGlobalesByIdGrupo)" -->
+        <!-- Badly formed XML comment ignored for member "M:Tekton.Configuration.WebApi.Controllers.ParametroGlobalController.getTipoSolicitud(Tekton.Configuration.Application.Features.ParametrosGlobales.Query.QueryParametroGlobalesTipoSolicitud)" -->
+        <member name="T:Tekton.Configuration.WebApi.Controllers.PlantillaDocumentoController">
+            <summary>
+            Controlador para la gestión de plantillas de documentos.
+            </summary>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.PlantillaDocumentoController.#ctor(MediatR.IMediator)">
+            <summary>
+            Constructor de PlantillaDocumentoController.
+            </summary>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.PlantillaDocumentoController.GetBySolicitud(Tekton.Configuration.Application.Features.PlantillaDocumento.Query.GetPlantillaDocumentoBySolicitudQuery)">
+            <summary>
+            Obtiene la plantilla de documento basada en la solicitud.
+            </summary>
+            <param name="get">Consulta para obtener la plantilla de documento por solicitud.</param>
+            <returns>Retorna la plantilla de documento basada en la solicitud.</returns>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.PlantillaDocumentoController.ListarPlantillaDocumentoFiltroCabecera(Tekton.Configuration.Application.Features.PlantillaDocumento.Query.PlantillaDocumentoFilterHeadQuery)">
+            <summary>
+            Lista las plantillas de documento filtrando por cabecera.
+            </summary>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.PlantillaDocumentoController.ListarUsuarioFiltroResultado(Tekton.Configuration.Application.Features.PlantillaDocumento.Query.GetPlantillaPeriodoFilterResultQuery)">
+            <summary>
+            Lista las plantillas de documento filtrando por resultado.
+            </summary>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.PlantillaDocumentoController.GetLiterales(Tekton.Configuration.Application.Features.PlantillaDocumento.Query.GetPlantillaLiteralByDocumentoQuery)">
+            <summary>
+            Obtiene la plantilla literal del documento.
+            </summary>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.PlantillaDocumentoController.GetPlantillaCabeceraPie(Tekton.Configuration.Application.Features.PlantillaDocumento.Query.GetCabeceraPiePaginaQuery)">
+            <summary>
+            Obtiene la cabecera y pie de pagina.
+            </summary>
+        </member>
+        <member name="T:Tekton.Configuration.WebApi.Controllers.TupaController">
+            <summary>
+            Controlador para la gestión de Tupas.
+            </summary>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.TupaController.#ctor(MediatR.IMediator)">
+            <summary>
+            Constructor de TupaController.
+            </summary>
+        </member>
+        <member name="M:Tekton.Configuration.WebApi.Controllers.TupaController.ListarTupas(Tekton.Configuration.Application.Features.Tupa.Query.GetTupaQuery)">
+            <summary>
+            Lista los Tupas.
+            </summary>
+            <param name="query">Consulta para obtener los Tupas.</param>
+            <returns>Retorna los Tupas.</returns>
+        </member>
+        <member name="T:Tekton.Inspeccion.WebApi.Controllers.ProvinciaController">
+            <summary>
+            Controlador para la gestión de provincias.
+            </summary>
+        </member>
+        <member name="M:Tekton.Inspeccion.WebApi.Controllers.ProvinciaController.#ctor(MediatR.IMediator)">
+            <summary>
+            Constructor de ProvinciaController.
+            </summary>
+        </member>
+        <member name="M:Tekton.Inspeccion.WebApi.Controllers.ProvinciaController.GetProvincia(Tekton.Configuration.Application.Features.Provincia.Query.GetProvinciaQuery)">
+            <summary>
+            Obtiene la información de una provincia.
+            </summary>
+            <param name="query">Consulta para obtener la información de una provincia.</param>
+            <returns>Retorna la información de la provincia solicitada.</returns>
+        </member>
+        <member name="M:Tekton.Inspeccion.WebApi.Controllers.ProvinciaController.GetByDepartamentoId(Tekton.Configuration.Application.Features.Provincia.Query.GetProvinciaByDepartamentoIdQuery)">
+            <summary>
+            Obtiene las provincias basadas en el ID del departamento.
+            </summary>
+            <param name="query">Consulta para obtener las provincias por ID de departamento.</param>
+            <returns>Retorna las provincias basadas en el ID del departamento.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservicio Configuracion", "Microservicio Configuracion", "{72E20F85-31F1-4613-8EB0-290F89B71AE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.Configuration.WebApi", "Microservicio Configuracion\Tekton.Configuration.WebApi\Tekton.Configuration.WebApi.csproj", "{F4FA571B-61F7-420B-BEC9-9DD489955C21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.Configuration.Infraestructure", "Microservicio Configuracion\Tekton.Configuration.Infraestructure\Tekton.Configuration.Infraestructure.csproj", "{EE2C4E83-2270-44CF-9A32-305996553E80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.Configuration.Application", "Microservicio Configuracion\Tekton.Configuration.Application\Tekton.Configuration.Application.csproj", "{AE17E912-D719-4C60-ABF0-EA870E64A9EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.Configuration.Damain", "Microservicio Configuracion\Tekton.Configuration.Damain\Tekton.Configuration.Damain.csproj", "{34A0E061-8A41-49D4-93BE-9D623C7AEAC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.Configuration.xUnitTestes", "Microservicio Configuracion\Tekton.Configuration.xUnitTestes\Tekton.Configuration.xUnitTestes.csproj", "{48A19900-F584-4E48-9F0E-AAE8DBD6C7F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossProject", "CrossProject", "{1B71AC98-6329-463D-AB2F-4268268F0F42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.Application.Common", "CrossProject\Tekton.Application.Common\Tekton.Application.Common.csproj", "{230ACA63-F25E-4A70-9C3B-A2CB4F88EED5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.Service.Common", "CrossProject\Tekton.Service.Common\Tekton.Service.Common.csproj", "{82848E0D-3413-447F-83C6-BF5EF7F5C1E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.Seguridad.Common", "CrossProject\Tekton.Seguridad.Common\Tekton.Seguridad.Common.csproj", "{DD97B8DC-92A2-4BAC-8E19-A1569B1E6E05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.Elastic.LogCommon", "CrossProject\Tekton.Elastic.LogCommon\Tekton.Elastic.LogCommon.csproj", "{CDBB5C0A-34C9-496D-B44F-891CEE8617C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.Caching.Common", "CrossProject\Tekton.Caching.Common\Tekton.Caching.Common.csproj", "{6567A9AB-94D9-493A-A6BC-E286391BF168}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2E5FA450-1C35-494D-B164-3B82487F3885}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{C756556D-95A9-4355-BEE2-1BD1F10E6811}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4FA571B-61F7-420B-BEC9-9DD489955C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4FA571B-61F7-420B-BEC9-9DD489955C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4FA571B-61F7-420B-BEC9-9DD489955C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4FA571B-61F7-420B-BEC9-9DD489955C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2C4E83-2270-44CF-9A32-305996553E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2C4E83-2270-44CF-9A32-305996553E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2C4E83-2270-44CF-9A32-305996553E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2C4E83-2270-44CF-9A32-305996553E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE17E912-D719-4C60-ABF0-EA870E64A9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE17E912-D719-4C60-ABF0-EA870E64A9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE17E912-D719-4C60-ABF0-EA870E64A9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE17E912-D719-4C60-ABF0-EA870E64A9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A0E061-8A41-49D4-93BE-9D623C7AEAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A0E061-8A41-49D4-93BE-9D623C7AEAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A0E061-8A41-49D4-93BE-9D623C7AEAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A0E061-8A41-49D4-93BE-9D623C7AEAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A19900-F584-4E48-9F0E-AAE8DBD6C7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A19900-F584-4E48-9F0E-AAE8DBD6C7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A19900-F584-4E48-9F0E-AAE8DBD6C7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A19900-F584-4E48-9F0E-AAE8DBD6C7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{230ACA63-F25E-4A70-9C3B-A2CB4F88EED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230ACA63-F25E-4A70-9C3B-A2CB4F88EED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230ACA63-F25E-4A70-9C3B-A2CB4F88EED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230ACA63-F25E-4A70-9C3B-A2CB4F88EED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82848E0D-3413-447F-83C6-BF5EF7F5C1E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82848E0D-3413-447F-83C6-BF5EF7F5C1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82848E0D-3413-447F-83C6-BF5EF7F5C1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82848E0D-3413-447F-83C6-BF5EF7F5C1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD97B8DC-92A2-4BAC-8E19-A1569B1E6E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD97B8DC-92A2-4BAC-8E19-A1569B1E6E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD97B8DC-92A2-4BAC-8E19-A1569B1E6E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD97B8DC-92A2-4BAC-8E19-A1569B1E6E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBB5C0A-34C9-496D-B44F-891CEE8617C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBB5C0A-34C9-496D-B44F-891CEE8617C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBB5C0A-34C9-496D-B44F-891CEE8617C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBB5C0A-34C9-496D-B44F-891CEE8617C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6567A9AB-94D9-493A-A6BC-E286391BF168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6567A9AB-94D9-493A-A6BC-E286391BF168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6567A9AB-94D9-493A-A6BC-E286391BF168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6567A9AB-94D9-493A-A6BC-E286391BF168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E5FA450-1C35-494D-B164-3B82487F3885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E5FA450-1C35-494D-B164-3B82487F3885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E5FA450-1C35-494D-B164-3B82487F3885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E5FA450-1C35-494D-B164-3B82487F3885}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4FA571B-61F7-420B-BEC9-9DD489955C21} = {72E20F85-31F1-4613-8EB0-290F89B71AE4}
+		{EE2C4E83-2270-44CF-9A32-305996553E80} = {72E20F85-31F1-4613-8EB0-290F89B71AE4}
+		{AE17E912-D719-4C60-ABF0-EA870E64A9EA} = {72E20F85-31F1-4613-8EB0-290F89B71AE4}
+		{34A0E061-8A41-49D4-93BE-9D623C7AEAC5} = {72E20F85-31F1-4613-8EB0-290F89B71AE4}
+		{48A19900-F584-4E48-9F0E-AAE8DBD6C7F0} = {72E20F85-31F1-4613-8EB0-290F89B71AE4}
+		{230ACA63-F25E-4A70-9C3B-A2CB4F88EED5} = {1B71AC98-6329-463D-AB2F-4268268F0F42}
+		{82848E0D-3413-447F-83C6-BF5EF7F5C1E6} = {1B71AC98-6329-463D-AB2F-4268268F0F42}
+		{DD97B8DC-92A2-4BAC-8E19-A1569B1E6E05} = {1B71AC98-6329-463D-AB2F-4268268F0F42}
+		{CDBB5C0A-34C9-496D-B44F-891CEE8617C2} = {1B71AC98-6329-463D-AB2F-4268268F0F42}
+		{6567A9AB-94D9-493A-A6BC-E286391BF168} = {1B71AC98-6329-463D-AB2F-4268268F0F42}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4409182E-E4C7-4EE9-A622-0CB601B2DE80}
+	EndGlobalSection
+EndGlobal

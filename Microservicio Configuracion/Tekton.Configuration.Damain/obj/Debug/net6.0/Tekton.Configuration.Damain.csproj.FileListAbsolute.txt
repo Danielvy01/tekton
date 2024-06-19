@@ -1,0 +1,15 @@
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Damain\bin\Debug\net6.0\Tekton.Configuration.Damain.deps.json
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Damain\bin\Debug\net6.0\Tekton.Configuration.Damain.dll
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Damain\bin\Debug\net6.0\Tekton.Configuration.Damain.pdb
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Damain\obj\Debug\net6.0\Tekton.Configuration.Damain.GeneratedMSBuildEditorConfig.editorconfig
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Damain\obj\Debug\net6.0\Tekton.Configuration.Damain.AssemblyInfoInputs.cache
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Damain\obj\Debug\net6.0\Tekton.Configuration.Damain.AssemblyInfo.cs
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Damain\obj\Debug\net6.0\Tekton.Configuration.Damain.csproj.CoreCompileInputs.cache
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Damain\obj\Debug\net6.0\Tekton.Configuration.Damain.dll
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Damain\obj\Debug\net6.0\refint\Tekton.Configuration.Damain.dll
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Damain\obj\Debug\net6.0\Tekton.Configuration.Damain.pdb
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Damain\obj\Debug\net6.0\ref\Tekton.Configuration.Damain.dll
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Damain\bin\Debug\net6.0\Tekton.Caching.Common.dll
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Damain\bin\Debug\net6.0\Tekton.Caching.Common.pdb
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Damain\obj\Debug\net6.0\Tekton.Configuration.Damain.csproj.AssemblyReference.cache
+C:\FUENTES\EXADEMO\ExamTekton\Microservicio Configuracion\Tekton.Configuration.Damain\obj\Debug\net6.0\Tekton.Configuration.Damain.csproj.CopyComplete

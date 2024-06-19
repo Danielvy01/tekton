@@ -1,0 +1,46 @@
+version: '3.4'
+
+services:
+  service-redis:
+    image: redis:latest
+    command: --requirepass Tekton#2
+    container_name: database-rediscache
+    restart: always
+    environment:
+    - REDIS_PASSWORD=Tekton#2
+    ports:
+    - 6379:6379
+    networks:
+    - Tekton   
+
+  Tekton.configuration.webapi:
+    image: ${DOCKER_REGISTRY-}tektonconfigurationwebapi
+    container_name: microservicios-configuracion
+    restart: always
+    build:
+      context: .
+      dockerfile: Microservicio Configuracion/Tekton.Configuration.WebApi/Dockerfile
+    ports:
+      - "5021:80"
+      - "5020:443"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=admin
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+    volumes:
+      - ~/.aspnet/https:/https:ro
+    networks:
+      - Tekton
+      
+volumes:
+  esdata:
+    driver: local
+
+networks:
+  Tekton:
+    driver: bridge
+
+
+
+

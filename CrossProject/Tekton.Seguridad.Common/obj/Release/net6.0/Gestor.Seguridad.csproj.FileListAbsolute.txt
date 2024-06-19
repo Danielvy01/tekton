@@ -1,0 +1,12 @@
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Seguridad\bin\Release\net6.0\Tekton.Seguridad.deps.json
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Seguridad\bin\Release\net6.0\Tekton.Seguridad.dll
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Seguridad\bin\Release\net6.0\Tekton.Seguridad.pdb
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Seguridad\obj\Release\net6.0\Tekton.Seguridad.csproj.AssemblyReference.cache
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Seguridad\obj\Release\net6.0\Tekton.Seguridad.GeneratedMSBuildEditorConfig.editorconfig
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Seguridad\obj\Release\net6.0\Tekton.Seguridad.AssemblyInfoInputs.cache
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Seguridad\obj\Release\net6.0\Tekton.Seguridad.AssemblyInfo.cs
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Seguridad\obj\Release\net6.0\Tekton.Seguridad.csproj.CoreCompileInputs.cache
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Seguridad\obj\Release\net6.0\Tekton.Seguridad.dll
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Seguridad\obj\Release\net6.0\refint\Tekton.Seguridad.dll
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Seguridad\obj\Release\net6.0\Tekton.Seguridad.pdb
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Seguridad\obj\Release\net6.0\ref\Tekton.Seguridad.dll

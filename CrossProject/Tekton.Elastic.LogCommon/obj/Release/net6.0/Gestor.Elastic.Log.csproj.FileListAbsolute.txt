@@ -1,0 +1,12 @@
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Elastic.Log\bin\Release\net6.0\Tekton.Elastic.Log.deps.json
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Elastic.Log\bin\Release\net6.0\Tekton.Elastic.Log.dll
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Elastic.Log\bin\Release\net6.0\Tekton.Elastic.Log.pdb
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Elastic.Log\obj\Release\net6.0\Tekton.Elastic.Log.csproj.AssemblyReference.cache
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Elastic.Log\obj\Release\net6.0\Tekton.Elastic.Log.GeneratedMSBuildEditorConfig.editorconfig
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Elastic.Log\obj\Release\net6.0\Tekton.Elastic.Log.AssemblyInfoInputs.cache
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Elastic.Log\obj\Release\net6.0\Tekton.Elastic.Log.AssemblyInfo.cs
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Elastic.Log\obj\Release\net6.0\Tekton.Elastic.Log.csproj.CoreCompileInputs.cache
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Elastic.Log\obj\Release\net6.0\Tekton.Elastic.Log.dll
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Elastic.Log\obj\Release\net6.0\refint\Tekton.Elastic.Log.dll
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Elastic.Log\obj\Release\net6.0\Tekton.Elastic.Log.pdb
+C:\FUENTES\MINCETUR.004_DIGESA\Tekton.Elastic.Log\obj\Release\net6.0\ref\Tekton.Elastic.Log.dll

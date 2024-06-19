@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<!--
+		<SonarQubeExclude>True</SonarQubeExclude>
+		-->
+		<!--
+		<ExcludeFromCodeCoverage>true</ExcludeFromCodeCoverage>
+		-->
+		<WarningsAsErrors>false</WarningsAsErrors>
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Features\ParametrosGlobales\Command\**" />
+	  <Compile Remove="Features\Plantilla\**" />
+	  <Compile Remove="Features\Proveedores\**" />
+	  <EmbeddedResource Remove="Features\ParametrosGlobales\Command\**" />
+	  <EmbeddedResource Remove="Features\Plantilla\**" />
+	  <EmbeddedResource Remove="Features\Proveedores\**" />
+	  <None Remove="Features\ParametrosGlobales\Command\**" />
+	  <None Remove="Features\Plantilla\**" />
+	  <None Remove="Features\Proveedores\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\CrossProject\Tekton.Application.Common\Tekton.Application.Common.csproj" />
+		<ProjectReference Include="..\..\Tekton.Application.Common\Tekton.Application.Common.csproj" />
+		<ProjectReference Include="..\Tekton.Configuration.Infraestructure\Tekton.Configuration.Infraestructure.csproj" />
+	</ItemGroup>
+	<!--
+	<ItemGroup>
+		<AssemblyAttribute
+			Include="System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverage" />
+	</ItemGroup>
+	-->
+</Project>

@@ -1,0 +1,15 @@
+C:\FUENTES\TEKTON\Tekton.Application.Common\bin\Release\net6.0\Tekton.Application.Common.deps.json
+C:\FUENTES\TEKTON\Tekton.Application.Common\bin\Release\net6.0\Tekton.Application.Common.dll
+C:\FUENTES\TEKTON\Tekton.Application.Common\bin\Release\net6.0\Tekton.Application.Common.pdb
+C:\FUENTES\TEKTON\Tekton.Application.Common\bin\Release\net6.0\Tekton.RedisCaching.dll
+C:\FUENTES\TEKTON\Tekton.Application.Common\bin\Release\net6.0\Tekton.RedisCaching.pdb
+C:\FUENTES\TEKTON\Tekton.Application.Common\obj\Release\net6.0\Tekton.Application.Common.csproj.AssemblyReference.cache
+C:\FUENTES\TEKTON\Tekton.Application.Common\obj\Release\net6.0\Tekton.Application.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\FUENTES\TEKTON\Tekton.Application.Common\obj\Release\net6.0\Tekton.Application.Common.AssemblyInfoInputs.cache
+C:\FUENTES\TEKTON\Tekton.Application.Common\obj\Release\net6.0\Tekton.Application.Common.AssemblyInfo.cs
+C:\FUENTES\TEKTON\Tekton.Application.Common\obj\Release\net6.0\Tekton.Application.Common.csproj.CoreCompileInputs.cache
+C:\FUENTES\TEKTON\Tekton.Application.Common\obj\Release\net6.0\Tekton.Application.Common.csproj.CopyComplete
+C:\FUENTES\TEKTON\Tekton.Application.Common\obj\Release\net6.0\Tekton.Application.Common.dll
+C:\FUENTES\TEKTON\Tekton.Application.Common\obj\Release\net6.0\refint\Tekton.Application.Common.dll
+C:\FUENTES\TEKTON\Tekton.Application.Common\obj\Release\net6.0\Tekton.Application.Common.pdb
+C:\FUENTES\TEKTON\Tekton.Application.Common\obj\Release\net6.0\ref\Tekton.Application.Common.dll

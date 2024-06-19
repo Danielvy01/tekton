@@ -1,0 +1,12 @@
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Caching.Common\bin\Debug\net6.0\Tekton.Caching.Common.deps.json
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Caching.Common\bin\Debug\net6.0\Tekton.Caching.Common.dll
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Caching.Common\bin\Debug\net6.0\Tekton.Caching.Common.pdb
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Caching.Common\obj\Debug\net6.0\Tekton.Caching.Common.csproj.AssemblyReference.cache
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Caching.Common\obj\Debug\net6.0\Tekton.Caching.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Caching.Common\obj\Debug\net6.0\Tekton.Caching.Common.AssemblyInfoInputs.cache
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Caching.Common\obj\Debug\net6.0\Tekton.Caching.Common.AssemblyInfo.cs
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Caching.Common\obj\Debug\net6.0\Tekton.Caching.Common.csproj.CoreCompileInputs.cache
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Caching.Common\obj\Debug\net6.0\Tekton.Caching.Common.dll
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Caching.Common\obj\Debug\net6.0\refint\Tekton.Caching.Common.dll
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Caching.Common\obj\Debug\net6.0\Tekton.Caching.Common.pdb
+C:\FUENTES\EXADEMO\ExamTekton\CrossProject\Tekton.Caching.Common\obj\Debug\net6.0\ref\Tekton.Caching.Common.dll
